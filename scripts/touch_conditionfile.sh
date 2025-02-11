@@ -2,8 +2,8 @@
 
 ########## Touch condition file ##########
 
-if [[ ! -f "/var/log/org.alliander.log" ]]; then
-    touch "/var/log/org.alliander.log"
+if [[ ! -f "/Library/Application Support/Enexis/Logs/org.enexis.log" ]]; then
+    touch "/Library/Application Support/Enexis/Logs/org.enexis.log"
 fi
 
 exit
