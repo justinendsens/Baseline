@@ -41,7 +41,7 @@ sudo chflags hidden "$BASE_DIR"
 
 # Download the file into the Pictures directory
 echo "Downloading file from $FILE_URL to $TARGET_FILE"
-curl -L -o "$TARGET_FILE" "$FILE_URL"
+sudo curl -L -o "$TARGET_FILE" "$FILE_URL"
 
 # Check if the download was successful
 if [ $? -eq 0 ]; then
