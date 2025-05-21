@@ -72,4 +72,4 @@ fi
 echo "Setting wallpaper using $WALLPAPER_FILE"
 
 # Voer desktoppr uit met de opgegeven URL
-desktoppr "$WALLPAPER_URL"
+desktoppr "https://enxp657sa01.blob.core.windows.net/enxp657ct01/pictures/Wallpaper.jpg"
